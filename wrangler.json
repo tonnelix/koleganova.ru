@@ -1,0 +1,12 @@
+{
+  "name": "koleganova-ru",
+  "main": "cloudflare/worker.ts",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "build": {
+    "command": "npm run build"
+  },
+  "compatibility_date": "2025-10-24"
+}
